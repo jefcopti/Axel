@@ -130,14 +130,14 @@ header h4{
     margin-left: 70%;
 }
 .slide{
-    animation: glisse 15s infinite;
+  animation: glisse 30s infinite; 
 }
 .slides{
     width: calc(500px*3);
 }
 .slider{
     height: 600px;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 @keyframes glisse{
@@ -147,23 +147,23 @@ header h4{
     5%{
         transform: translateX(0);
     }
-    15%{
-        transform: translateY(-600px);
-    }
-    25%{
+    20%{
         transform: translateY(-600px);
     }
     35%{
         transform: translateY(-1200px);
     }
+    40%{
+        transform: translateY(-1800px);
+    }
     50%{
-        transform: translateY(-1200px);
+        transform: translateY(-2400px);
     }
     65%{
-        transform: translateY(-1800px);
+        transform: translateY(-3000px);
     }
     75%{
-        transform: translateY(-1800px);
+        transform: translateY(-3600px);
     }
     100%{
         transform: translateY(0);
